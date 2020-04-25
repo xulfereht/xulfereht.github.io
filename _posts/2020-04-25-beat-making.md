@@ -1,7 +1,7 @@
 ---
 title: generate a beat by python  
 layout: single 
-categories: 개발 
+categories: dev 
 tags: dev music
 ---
 

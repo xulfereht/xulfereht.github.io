@@ -1,7 +1,7 @@
 ---
 title: 더 살펴볼 것들 
 layout: single 
-categories: 개발 
+categories: dev 
 tags: nodejs django dev chatbot vim sql
 ---
 
