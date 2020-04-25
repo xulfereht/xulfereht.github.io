@@ -2,7 +2,7 @@
 title: generate a beat by python  
 layout: single 
 categories: 개발 
-tags: dev, music
+tags: dev music
 ---
 
  코드 베이스 비트 메이킹 관련
