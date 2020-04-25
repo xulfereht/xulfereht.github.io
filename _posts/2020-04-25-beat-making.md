@@ -19,7 +19,7 @@ tags: dev music
 
 * [Generate Piano Instrumental Music by Using Deep Learning](https://towardsdatascience.com/generate-piano-instrumental-music-by-using-deep-learning-80ac35cdbd2e)
 
-[GitHub - YoongiKim/pytorch-music-composer: Game music training](https://github.com/YoongiKim/pytorch-music-composer?fbclid=IwAR1TDcbD_jtRwHuLAZzmDF70xcwsm4Z0IBqdhCEEjYRhHs1S6PVZYT0vGOg)
+* [GitHub - YoongiKim/pytorch-music-composer: Game music training](https://github.com/YoongiKim/pytorch-music-composer?fbclid=IwAR1TDcbD_jtRwHuLAZzmDF70xcwsm4Z0IBqdhCEEjYRhHs1S6PVZYT0vGOg)
 
 ### 게임 음악 학습을 통한 음악 생성
 키네틱 타이포그래피
