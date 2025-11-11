@@ -95,3 +95,20 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 *.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler
+.bundle/
+vendor/
+
+# Ruby
+*.gem
