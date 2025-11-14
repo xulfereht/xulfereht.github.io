@@ -15,31 +15,22 @@ $type-size-4-5: 1.12em !default; // Fira Code is well-sized
 @import "minimal-mistakes/skins/air"; // skin
 @import "minimal-mistakes";
 
-// https://github.com/mmistakes/minimal-mistakes/issues/1219
-html {
-  font-size: 12px; // change to whatever
-  
-  @include breakpoint($medium) {
-    font-size: 14px; // change to whatever
-  }
+// Font sizes are now handled by _custom.scss
+// Korean-optimized responsive sizing:
+// - Mobile: 15px
+// - Desktop (48em+): 18px
 
-  @include breakpoint($large) {
-    font-size: 16px; // change to whatever
-  }
-
-  @include breakpoint($x-large) {
-    font-size: 18px; // change to whatever
-  }
-}
-
+// Code block improvements
 .highlight {
   font-family: $monospace;
-  font-size: $type-size-4-5;
+  font-size: 0.85em; // Consistent with _custom.scss
 }
 
 .language-plaintext {
   font-family: $monospace;
-  font-size: $type-size-5;
-  background: #c0ffee;
+  font-size: 0.9em; // Inline code size from _custom.scss
+  background: #f5f5f5; // Match _custom.scss inline code background
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
 }
 
