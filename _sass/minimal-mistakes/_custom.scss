@@ -1,0 +1,246 @@
+/* ==========================================================================
+   Custom SCSS for Korean Typography & Readability
+   ========================================================================== */
+
+/* Import Pretendard Font (Modern Korean Web Font) */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css');
+
+/* Import Fira Code for Code Blocks */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap');
+
+/* Font Family Override */
+$sans-serif: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$monospace: "Fira Code", Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+/* Typography - Korean Optimized */
+html {
+  font-family: $sans-serif;
+  font-size: 16px;
+
+  @media (min-width: 48em) {
+    font-size: 18px; /* Larger base size for desktop */
+  }
+}
+
+body {
+  font-family: $sans-serif;
+  line-height: 1.8; /* Increased from 1.5 for Korean readability */
+  letter-spacing: -0.02em; /* Tighter spacing for Korean */
+}
+
+/* Headings - Optimized Hierarchy */
+h1, h2, h3, h4, h5, h6 {
+  font-family: $sans-serif;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.03em;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+}
+
+h1 {
+  font-size: 2.2em;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 700;
+  border-bottom: 2px solid #e8e8e8;
+  padding-bottom: 0.3em;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+/* Paragraph Spacing */
+p {
+  margin-bottom: 1.5em;
+  line-height: 1.85;
+}
+
+/* Code Blocks */
+code {
+  font-family: $monospace;
+  font-size: 0.9em;
+  background: #f5f5f5;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+pre code {
+  font-family: $monospace;
+  font-size: 0.85em;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+/* Lists - Better Spacing */
+ul, ol {
+  margin-bottom: 1.5em;
+
+  li {
+    margin-bottom: 0.5em;
+    line-height: 1.75;
+  }
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #3498db;
+  padding-left: 1.2em;
+  margin: 1.5em 0;
+  font-style: normal;
+  color: #555;
+  background: #f8f9fa;
+  padding: 1em 1.2em;
+  border-radius: 4px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #3498db;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #2980b9;
+    text-decoration: underline;
+  }
+}
+
+/* Content Width (Korean Optimal Reading Width) */
+.page__content {
+  max-width: 900px; /* Reduced from 1280px for better readability */
+}
+
+.archive {
+  max-width: 900px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  margin-bottom: 1.5em;
+  border-collapse: collapse;
+  font-size: 0.95em;
+
+  th, td {
+    padding: 0.8em 1em;
+    border: 1px solid #e0e0e0;
+    line-height: 1.6;
+  }
+
+  th {
+    background: #f5f5f5;
+    font-weight: 600;
+  }
+
+  tr:nth-child(even) {
+    background: #fafafa;
+  }
+}
+
+/* Image Captions */
+figcaption {
+  font-size: 0.9em;
+  color: #666;
+  text-align: center;
+  margin-top: 0.5em;
+  font-style: italic;
+}
+
+/* Horizontal Rule */
+hr {
+  border: 0;
+  height: 2px;
+  background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.1), rgba(0,0,0,0));
+  margin: 2.5em 0;
+}
+
+/* Reading Time & Meta Info */
+.page__meta {
+  font-size: 0.85em;
+  color: #888;
+}
+
+/* Table of Contents */
+.toc {
+  background: #f8f9fa;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  padding: 1.5em;
+
+  .toc__title {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 0.8em;
+  }
+
+  li {
+    line-height: 1.6;
+  }
+}
+
+/* Syntax Highlighting - Better Contrast */
+.highlight {
+  background: #282c34;
+  border-radius: 6px;
+  padding: 1em;
+  overflow-x: auto;
+  margin-bottom: 1.5em;
+
+  code {
+    background: transparent;
+    color: #abb2bf;
+    padding: 0;
+  }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+
+  .page__content {
+    padding: 1em;
+  }
+}
+
+/* Print Optimization */
+@media print {
+  body {
+    font-size: 12pt;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  p, ul, ol {
+    orphans: 3;
+    widows: 3;
+  }
+}
