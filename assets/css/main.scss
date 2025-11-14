@@ -3,15 +3,17 @@
 --- 
 
 // https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing
-$sans-serif: 'Noto Sans KR';
-$monospace: 'Ubuntu Mono';
-$type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
+// Import Pretendard and Fira Code fonts
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap');
+
+$sans-serif: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+$monospace: 'Fira Code', Monaco, Consolas, 'Lucida Console', monospace;
+$type-size-4-5: 1.12em !default; // Fira Code is well-sized
 
 @charset "utf-8";
-@import "minimal-mistakes/skins/default"; // skin
+@import "minimal-mistakes/skins/air"; // skin
 @import "minimal-mistakes";
-
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);
 
 // https://github.com/mmistakes/minimal-mistakes/issues/1219
 html {
