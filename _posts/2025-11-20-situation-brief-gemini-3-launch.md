@@ -3,7 +3,8 @@ categories: analysis
 layout: single
 tags: brief_processed AI Google Gemini coding benchmarks
 title: "Situation Brief: Gemini 3 Launch"
-og_image: /assets/images/og/gemini-3-launch.png
+header:
+  og_image: /assets/images/og/gemini-3-launch.png
 ---
 
 ## 📊 Executive Summary
