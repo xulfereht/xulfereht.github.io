@@ -3,6 +3,8 @@ categories: essay
 layout: single
 tags: claude-code data-flow cli-mastery automation system-thinking
 title: "Claude Code를 어떻게 써야 할까: 데이터 흐름으로 사고하는 능력"
+header:
+  og_image: /assets/images/og/claude-code-data-flow-thinking.png
 ---
 
 Claude Code를 처음 쓰기 시작했을 때 기대는 간단했습니다.

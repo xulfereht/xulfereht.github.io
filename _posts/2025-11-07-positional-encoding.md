@@ -4,6 +4,8 @@ date: '2025-11-07'
 layout: single
 tags: positional encoding positional-encoding AI learning tutorial
 title: Positional Encoding
+header:
+  og_image: /assets/images/og/positional-encoding.png
 ---
 # AI Learning Journey - 2025-11-07
 

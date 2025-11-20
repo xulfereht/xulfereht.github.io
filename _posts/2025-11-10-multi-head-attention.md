@@ -4,6 +4,8 @@ date: '2025-11-10'
 layout: single
 tags: multi-head-attention attention multi-head AI learning tutorial
 title: Multi-Head Attention
+header:
+  og_image: /assets/images/og/multi-head-attention.png
 ---
 # AI Learning Journey - 2025-11-10
 

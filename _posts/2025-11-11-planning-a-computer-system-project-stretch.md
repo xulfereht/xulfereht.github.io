@@ -3,6 +3,8 @@ categories: reading
 layout: single
 tags: book reading notes
 title: 'Planning a Computer System: Project Stretch'
+header:
+  og_image: /assets/images/og/planning-a-computer-system-project-stretch.png
 ---
 # Planning a Computer System: Project Stretch
 
