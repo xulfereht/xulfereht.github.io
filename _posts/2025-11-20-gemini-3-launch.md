@@ -3,6 +3,7 @@ categories: analysis
 layout: single
 tags: AI Google Gemini coding benchmarks
 title: "Gemini 3 Launch: 벤치마크 압도, 에이전틱 시대 개막"
+og_image: /assets/images/og/gemini-3-launch.png
 ---
 
 ## 📊 Executive Summary
