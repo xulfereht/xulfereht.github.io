@@ -5,6 +5,7 @@ tags: book reading notes
 title: The Ultimate n8n Starter Kit (2025)
 header:
   og_image: /assets/images/og/the-ultimate-n8n-starter-kit-2025.png
+  image: /assets/images/og/the-ultimate-n8n-starter-kit-2025.png
 ---
 # The Ultimate n8n Starter Kit (2025)
 

@@ -6,6 +6,7 @@ tags: lecture-series brain-science ai neuroscience philosophy consolidated AI le
 title: 20년 뇌과학 공부, 핵심만 4시간에 압축 (통합본)
 header:
   og_image: /assets/images/og/20nyeon-noegwahag-gongbu-han-noegwahagjaeui-gongbubbeob.png
+  image: /assets/images/og/20nyeon-noegwahag-gongbu-han-noegwahagjaeui-gongbubbeob.png
 ---
 # 20년 뇌과학 공부, 핵심만 4시간에 압축 (통합본)
 

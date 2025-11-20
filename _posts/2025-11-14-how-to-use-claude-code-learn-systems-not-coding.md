@@ -5,6 +5,7 @@ tags: claude-code cli system-thinking data-pipeline unix-philosophy learning-roa
 title: "Claude Code를 어떻게 써야 할까: 코딩이 아니라 시스템을 배워야 하는 이유"
 header:
   og_image: /assets/images/og/how-to-use-claude-code-mcp-server.png
+  image: /assets/images/og/how-to-use-claude-code-mcp-server.png
 ---
 
 ## 시작하며: 막막함의 정체

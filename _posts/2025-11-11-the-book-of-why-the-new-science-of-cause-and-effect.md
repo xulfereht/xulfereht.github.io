@@ -6,6 +6,7 @@ tags: causality statistics philosophy-of-science machine-learning AI book readin
 title: 'The Book of Why: The New Science of Cause and Effect'
 header:
   og_image: /assets/images/og/the-book-of-why-whyae-damdgin-jisig-eulchaj-aseo.png
+  image: /assets/images/og/the-book-of-why-whyae-damdgin-jisig-eulchaj-aseo.png
 ---
 # The Book of Why: The New Science of Cause and Effect
 

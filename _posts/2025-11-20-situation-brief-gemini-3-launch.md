@@ -5,6 +5,7 @@ tags: brief_processed AI Google Gemini coding benchmarks
 title: "Situation Brief: Gemini 3 Launch"
 header:
   og_image: /assets/images/og/situation-brief-gemini-3-launch.png
+  image: /assets/images/og/situation-brief-gemini-3-launch.png
 ---
 
 ## 📊 Executive Summary

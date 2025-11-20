@@ -6,6 +6,7 @@ tags: video-learning ai-automation development-tools workflow-optimization video
 title: This Claude Code Trick Will Blow Your Mind
 header:
   og_image: /assets/images/og/this-claude-code-trick-will-blow-your-mind.png
+  image: /assets/images/og/this-claude-code-trick-will-blow-your-mind.png
 ---
 ## TL;DR (2분 요약)
 

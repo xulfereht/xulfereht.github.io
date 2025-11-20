@@ -6,6 +6,7 @@ tags: network neural-network neural AI learning tutorial
 title: Neural Network
 header:
   og_image: /assets/images/og/neural-network.png
+  image: /assets/images/og/neural-network.png
 ---
 # AI Learning Journey - 2025-11-04
 

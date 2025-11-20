@@ -5,6 +5,7 @@ tags: history internet technology networking ARPANET TCP/IP web article summary
 title: A Brief History of the Internet
 header:
   og_image: /assets/images/og/a-brief-history-of-the-internet.png
+  image: /assets/images/og/a-brief-history-of-the-internet.png
 ---
 # A Brief History of the Internet
 

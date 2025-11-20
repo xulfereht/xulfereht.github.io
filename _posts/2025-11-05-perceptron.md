@@ -6,6 +6,7 @@ tags: perceptron AI learning tutorial
 title: Perceptron
 header:
   og_image: /assets/images/og/perceptron.png
+  image: /assets/images/og/perceptron.png
 ---
 # AI Learning Journey - 2025-11-05
 
