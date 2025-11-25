@@ -68,7 +68,7 @@ algolia:
   powered_by             : # true (default), false
 
 # SEO Related
-google_site_verification :
+google_site_verification : "google4fc9faef2ebe1160"
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
@@ -134,6 +134,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - google4fc9faef2ebe1160.html
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
