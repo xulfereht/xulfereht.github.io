@@ -15,16 +15,13 @@ marp_gallery:
     image_path: /assets/images/posts/notebooklm-slide-test/02-marp-basic-2.png
     alt: "MARP 기본 슬라이드 2"
 
-gemini_gallery:
-  - url: /assets/images/posts/notebooklm-slide-test/03-gemini-canvas-1.png
-    image_path: /assets/images/posts/notebooklm-slide-test/03-gemini-canvas-1.png
-    alt: "Gemini 캔버스 슬라이드 1"
+gemini_result_gallery:
   - url: /assets/images/posts/notebooklm-slide-test/03-gemini-canvas-2.png
     image_path: /assets/images/posts/notebooklm-slide-test/03-gemini-canvas-2.png
-    alt: "Gemini 캔버스 슬라이드 2"
+    alt: "Gemini 캔버스 결과 1"
   - url: /assets/images/posts/notebooklm-slide-test/03-gemini-canvas-3.png
     image_path: /assets/images/posts/notebooklm-slide-test/03-gemini-canvas-3.png
-    alt: "Gemini 캔버스 슬라이드 3"
+    alt: "Gemini 캔버스 결과 2"
 
 uncontrolled_gallery:
   - url: /assets/images/posts/notebooklm-slide-test/04-notebooklm-uncontrolled-1.png
@@ -42,37 +39,45 @@ controlled_gallery:
     image_path: /assets/images/posts/notebooklm-slide-test/05-notebooklm-controlled-2.png
     alt: "NotebookLM 제어된 슬라이드 2"
 
-style_gallery:
+style_set_1:
   - url: /assets/images/posts/notebooklm-slide-test/06-style-var-1.png
     image_path: /assets/images/posts/notebooklm-slide-test/06-style-var-1.png
-    alt: "스타일 변주 1"
+    alt: "스타일 세트 1-1"
   - url: /assets/images/posts/notebooklm-slide-test/06-style-var-2.png
     image_path: /assets/images/posts/notebooklm-slide-test/06-style-var-2.png
-    alt: "스타일 변주 2"
+    alt: "스타일 세트 1-2"
+
+style_set_2:
   - url: /assets/images/posts/notebooklm-slide-test/06-style-var-3.png
     image_path: /assets/images/posts/notebooklm-slide-test/06-style-var-3.png
-    alt: "스타일 변주 3"
+    alt: "스타일 세트 2-1"
   - url: /assets/images/posts/notebooklm-slide-test/06-style-var-4.png
     image_path: /assets/images/posts/notebooklm-slide-test/06-style-var-4.png
-    alt: "스타일 변주 4"
+    alt: "스타일 세트 2-2"
+
+style_set_3:
   - url: /assets/images/posts/notebooklm-slide-test/06-style-var-5.png
     image_path: /assets/images/posts/notebooklm-slide-test/06-style-var-5.png
-    alt: "스타일 변주 5"
+    alt: "스타일 세트 3-1"
   - url: /assets/images/posts/notebooklm-slide-test/06-style-var-6.png
     image_path: /assets/images/posts/notebooklm-slide-test/06-style-var-6.png
-    alt: "스타일 변주 6"
+    alt: "스타일 세트 3-2"
+
+style_set_4:
   - url: /assets/images/posts/notebooklm-slide-test/06-style-var-7.png
     image_path: /assets/images/posts/notebooklm-slide-test/06-style-var-7.png
-    alt: "스타일 변주 7"
+    alt: "스타일 세트 4-1"
   - url: /assets/images/posts/notebooklm-slide-test/06-style-var-8.png
     image_path: /assets/images/posts/notebooklm-slide-test/06-style-var-8.png
-    alt: "스타일 변주 8"
+    alt: "스타일 세트 4-2"
+
+style_set_5:
   - url: /assets/images/posts/notebooklm-slide-test/06-style-var-9.png
     image_path: /assets/images/posts/notebooklm-slide-test/06-style-var-9.png
-    alt: "스타일 변주 9"
+    alt: "스타일 세트 5-1"
   - url: /assets/images/posts/notebooklm-slide-test/06-style-var-10.png
     image_path: /assets/images/posts/notebooklm-slide-test/06-style-var-10.png
-    alt: "스타일 변주 10"
+    alt: "스타일 세트 5-2"
 ---
 
 지난 글에 이어서 나노바나나 프로에 대한 테스트입니다.
@@ -143,7 +148,9 @@ MARP에도 기본적으로 CSS 같은 방식으로 꾸미는 것이 가능하긴
 
 비슷한 방식은 Gemini 웹 UI에서 MARP 스타일로 작성된 md를 캔버스에 올려서 슬라이드로 그려달라고 하는 것인데요.
 
-{% include gallery id="gemini_gallery" caption="Gemini 캔버스로 생성한 슬라이드" %}
+![Gemini 캔버스 요청 화면](/assets/images/posts/notebooklm-slide-test/03-gemini-canvas-1.png)
+
+{% include gallery id="gemini_result_gallery" caption="Gemini 캔버스 생성 결과" %}
 
 컬러나 전반적인 스타일을 내용과 잘 부합되게 잘 만들어줍니다.
 
@@ -188,7 +195,15 @@ NotebookLM의 슬라이드 생성은 마감도가 뛰어나지만, 원하는 내
 
 아래는 동일한 내용에 대한 스타일 베리에이션 테스트입니다.
 
-{% include gallery id="style_gallery" caption="동일한 내용에 대한 10가지 스타일 베리에이션" %}
+{% include gallery id="style_set_1" caption="스타일 세트 1" %}
+
+{% include gallery id="style_set_2" caption="스타일 세트 2" %}
+
+{% include gallery id="style_set_3" caption="스타일 세트 3" %}
+
+{% include gallery id="style_set_4" caption="스타일 세트 4" %}
+
+{% include gallery id="style_set_5" caption="스타일 세트 5" %}
 
 텍스트 내용은 슬라이드별로 유지된 채로 스타일만 잘 변화하고 있는 걸 확인할 수 있었습니다.
 
